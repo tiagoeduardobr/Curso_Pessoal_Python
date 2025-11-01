@@ -10,7 +10,7 @@ Este projeto tem como objetivo criar um curso de Python completo e prático, seg
 
 1. **Fundamentos Sólidos:** Ensinar os conceitos fundamentais da linguagem Python, garantindo que o aluno tenha uma base sólida para construir conhecimentos mais avançados.
 2. **Aprendizagem Prática:** Focar em exemplos de código práticos e exercícios que demonstrem o uso real dos conceitos ensinados em cada aula.
-3. **Estrutura Modular:** Organizar o curso em módulos e aulas sequenciais, facilitando o acompanhamento e a revisão do conteúdo. A estrutura de diretórios reflete essa modularidade (ex: `01-hello-world`, `02-variables-and-types`, etc.).
+3. **Estrutura Modular:** Organizar o curso em módulos e aulas sequenciais, facilitando o acompanhamento e a revisão do conteúdo. A estrutura de diretórios reflete essa modularidade (ex: `module_01/01_introduction/05_hello_world/`, `module_01/02_basic_syntax/06_variables/`, etc.).
 4. **Versionamento com Git:** Utilizar o Git e o GitHub para documentar todo o progresso, permitindo que o aluno (e a IA) possa revisitar o histórico de aprendizado e gerenciar o código de forma eficiente.
 5. **Automação da Tutoria:** Capacitar a IA a assistir na criação das aulas, na escrita dos códigos, na documentação e na gestão do repositório, seguindo as diretrizes estabelecidas.
 6. **Integração de Tecnologias Avançadas:** Introduzir conceitos de backend (FastAPI, SQLAlchemy), frontend básico e IA generativa, simulando projetos do mundo real para construir um portfólio competitivo.
@@ -19,13 +19,13 @@ Este projeto tem como objetivo criar um curso de Python completo e prático, seg
 
 ## Estrutura Geral do Curso
 
-O curso é dividido em 8 módulos, do básico ao avançado. Cada aula prática tem um `main.py` com docstring, comentários, exemplos e exercício. Aulas teóricas usam `.md` bem formatados. Diretórios seguem `module_XX/submodule/YY-topic/`.
+O curso é dividido em 8 módulos, do básico ao avançado. Cada aula prática tem um `main.py` com docstring, comentários, exemplos e exercício. Aulas teóricas usam `.md` bem formatados. Diretórios seguem `module_XX/XX_submodule/XX_topic/`.
 
 ---
 
 ## Estado Atual
 
-O projeto já foi iniciado com algumas aulas básicas, que serão reposicionadas para a nova estrutura modular (ex: `00-import-this` vai para `module_01/introduction/00-import-this/`). As aulas existentes incluem introdução ao Python e conceitos iniciais. A nova estrutura TODO lista todas as lições a serem desenvolvidas ou movidas, priorizando Módulos 1 e 2 para respeitar a ordem sequencial.
+O projeto já foi iniciado com algumas aulas básicas, que serão reposicionadas para a nova estrutura modular (ex: `00-import-this` vai para `module_01/01_introduction/01_import_this/`). As aulas existentes incluem introdução ao Python e conceitos iniciais. A nova estrutura TODO lista todas as lições a serem desenvolvidas ou movidas, priorizando Módulos 1 e 2 para respeitar a ordem sequencial.
 
 ---
 
@@ -35,17 +35,17 @@ Para dar continuidade ao curso de onde paramos, a IA deve seguir o seguinte flux
 
 1. **Aguardar o Tópico:** Esperar que o aluno/usuário defina o tema da próxima aula (ex: "Operadores Aritméticos").
 2. **Criar a Estrutura:**
-    * Criar um novo diretório para a aula, seguindo o padrão de numeração sequencial (ex: `03-operators`).
+    * Criar um novo diretório para a aula, seguindo o padrão de numeração sequencial (ex: `module_01/02_basic_syntax/08_arithmetic_operators/`).
     * Dentro do novo diretório, criar um arquivo `main.py`.
 3. **Desenvolver o Conteúdo:**
     * No arquivo `main.py`, escrever o código Python que exemplifica o tópico da aula.
     * Utilizar comentários no código para explicar cada conceito de forma clara e didática, como se fosse o professor.
 4. **Documentar e Versionar:**
-    * Adicionar os novos arquivos (`<numero>-<topico>/main.py`) ao controle de versão (`git add .`).
+    * Adicionar os novos arquivos no diretório criado (ex.: `module_01/02_basic_syntax/08_arithmetic_operators/main.py`) ao controle de versão (`git add .`).
     * Gerar uma mensagem de commit clara e descritiva, seguindo o padrão "feat: Create lesson on <TÓPICO DA AULA>" (ex: "feat: Create lesson on arithmetic operators").
     * Realizar o commit das mudanças.
 5. **Confirmar e Avançar:** Informar ao usuário que a aula foi criada e comitada, e aguardar a instrução para a próxima aula ou qualquer outra solicitação.
-6. **Refinar e Conectar ao Mercado:** Após o commit, sugerir atualizações no [README.md](http://_vscodecontentref_/3) principal com um resumo da aula. Explicar como essa habilidade agrega valor ao portfólio (ex: "Essa aula demonstra fundamentos essenciais para entrevistas em Python"). Aguarde feedback do usuário para ajustes ou a próxima aula.
+6. **Refinar e Conectar ao Mercado:** Após o commit, sugerir atualizações no [README.md](README.md) principal com um resumo da aula. Explicar como essa habilidade agrega valor ao portfólio (ex: "Essa aula demonstra fundamentos essenciais para entrevistas em Python"). Aguarde feedback do usuário para ajustes ou a próxima aula.
 
 ---
 
@@ -158,7 +158,7 @@ Esta lista TODO descreve todas as aulas a serem criadas ou reposicionadas, segui
 
 ### Módulo 7: Especializações (Bibliotecas e Frameworks)
 
-#### 7.A: Desenvolvimento Web (Backend)
+#### 7.1: Desenvolvimento Web (Backend)
 
 * [ ] Conceitos: HTTP (GET, POST), APIs REST, ORM (Mapeador Objeto-Relacional) - `module_07/01_web_development/47_web_concepts/web_concepts.md`
 * [ ] Frameworks: Flask (micro-framework, ótimo para começar e APIs menores) - `module_07/01_web_development/48_flask/flask.md` e `main.py`
@@ -167,7 +167,7 @@ Esta lista TODO descreve todas as aulas a serem criadas ou reposicionadas, segui
 * [ ] Bibliotecas Comuns: SQLAlchemy (ORM principal do Python, usado com Flask/FastAPI) - `module_07/01_web_development/51_sqlalchemy/sqlalchemy.md` e `main.py`
 * [ ] Bibliotecas Comuns: Requests (para fazer requisições HTTP, consumindo outras APIs) - `module_07/01_web_development/52_requests/requests.md` e `main.py`
 
-#### 7.B: Ciência de Dados e Machine Learning
+#### 7.2: Ciência de Dados e Machine Learning
 
 * [ ] Análise e Manipulação de Dados: NumPy (biblioteca fundamental para computação numérica, arrays N-dimensionais) - `module_07/02_data_science/53_numpy/numpy.md` e `main.py`
 * [ ] Análise e Manipulação de Dados: Pandas (a biblioteca mais importante para manipulação e análise de dados, DataFrames) - `module_07/02_data_science/54_pandas/pandas.md` e `main.py`
@@ -178,15 +178,15 @@ Esta lista TODO descreve todas as aulas a serem criadas ou reposicionadas, segui
 * [ ] Deep Learning: Keras (API de alto nível, agora integrada ao TensorFlow) - `module_07/02_data_science/59_keras/keras.md` e `main.py`
 * [ ] Deep Learning: PyTorch (desenvolvido pelo Facebook, muito popular em pesquisa) - `module_07/02_data_science/60_pytorch/pytorch.md` e `main.py`
 
-#### 7.C: Automação e Scripting
+#### 7.3: Automação e Scripting
 
 * [ ] Automação Web (Web Scraping/Testing): Selenium (controla um navegador web como Chrome, Firefox para automação e testes) - `module_07/03_automation_scripting/61_selenium/selenium.md` e `main.py`
 * [ ] Automação Web: Beautiful Soup 4 (BS4) (para extrair dados de arquivos HTML e XML, web scraping) - `module_07/03_automation_scripting/62_beautiful_soup/beautiful_soup.md` e `main.py`
-* [ ] Automação Web: Scrapy (um framework completo para web scraping e crawling) - `module_07/03_automation_scripting/63_scrapy/scrapy.md` e `main.py`
+* [ ] Automação Web: Scrapy (um framework completo para web scraping and crawling) - `module_07/03_automation_scripting/63_scrapy/scrapy.md` e `main.py`
 * [ ] Automação de Tarefas: Bibliotecas da biblioteca padrão: `os`, `shutil` (manipular arquivos/pastas), `subprocess` (executar comandos do sistema) - `module_07/03_automation_scripting/64_task_automation/task_automation.md` e `main.py`
 * [ ] Automação de Tarefas: PyAutoGUI (para controlar mouse e teclado) - `module_07/03_automation_scripting/65_pyautogui/pyautogui.md` e `main.py`
 
-#### 7.D: Desenvolvimento de Interfaces Gráficas (Desktop)
+#### 7.4: Desenvolvimento de Interfaces Gráficas (Desktop)
 
 * [ ] Tkinter (biblioteca padrão de GUI do Python) - `module_07/04_gui_development/66_tkinter/tkinter.md` e `main.py`
 * [ ] PyQt ou PySide (*bindings* para o framework Qt, muito poderoso e profissional) - `module_07/04_gui_development/67_pyqt_pyside/pyqt_pyside.md` e `main.py`
