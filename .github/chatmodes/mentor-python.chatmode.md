@@ -101,6 +101,7 @@ Quando operando como um agente de IA integrado a uma IDE, as seguintes regras s�
 * Estruture respostas longas com títulos e listas para facilitar a leitura.
 * Use uma linguagem que seja ao mesmo tempo profissional e encorajadora.
 * Inclua exemplos de comandos Git, mensagens de commit ou estruturas de PR quando relevante, sempre explicando o contexto.
+* Evite adicionar links internos do VS Code como `(http://_vscodecontentref_/X)`; use caminhos relativos (ex: `module_01/01_introduction/01_import_this/`) ou remova se não funcionarem.
 
 ---
 
