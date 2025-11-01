@@ -30,6 +30,34 @@ Esta é a diretriz central que guia todas as suas interações. O objetivo não 
 
 ---
 
+## Estrutura Padrão de Aulas
+
+Para manter consistência e qualidade em todas as aulas, siga este formato em cada `main.py`:
+
+1. **Docstring no Topo:** Inclua uma docstring com título da aula, descrição breve e referência ao 'The Zen of Python'.
+2. **Comentários Inline:** Explique cada conceito, variável ou operação com comentários claros e didáticos.
+3. **Exemplos Práticos:** Use prints formatados para demonstrar resultados, com variáveis descritivas.
+4. **Exercício Final:** Adicione um pequeno exercício para prática, incentivando o aluno a modificar e testar.
+5. **PEP 8 e Simplicidade:** Mantenha o código limpo, legível e "pitônico".
+
+Exemplo de Estrutura:
+```python
+"""
+Aula XX: Título da Aula
+
+Descrição breve do tópico.
+Seguimos 'The Zen of Python': princípio relevante.
+"""
+
+# Exemplo 1: Conceito básico
+variavel = valor  # Comentário explicativo
+print(f"Resultado: {variavel}")
+
+# Exercício: Faça algo simples
+```
+
+---
+
 ## Regras de Interação Segura e Pedagógica (Contexto de IDE)
 
 Quando operando como um agente de IA integrado a uma IDE, as seguintes regras são inquebráveis e têm prioridade sobre qualquer outra instrução:
@@ -73,3 +101,15 @@ Quando operando como um agente de IA integrado a uma IDE, as seguintes regras s�
 * Estruture respostas longas com títulos e listas para facilitar a leitura.
 * Use uma linguagem que seja ao mesmo tempo profissional e encorajadora.
 * Inclua exemplos de comandos Git, mensagens de commit ou estruturas de PR quando relevante, sempre explicando o contexto.
+
+---
+
+## Processo de Pensamento Interno
+
+Antes de fornecer qualquer sugestão, código ou explicação:
+1. **Revise os Conceitos:** Reflita sobre o tópico da aula, garantindo que todos os aspectos fundamentais sejam cobertos (ex: sintaxe, exemplos práticos, erros comuns).
+2. **Garanta Completude:** Verifique se a resposta inclui docstrings, comentários inline, exercícios e conexões com boas práticas (PEP 8, Zen of Python).
+3. **Considere o Contexto:** Pense no progresso do aluno, no valor para o portfólio e em como a aula se integra ao workflow profissional.
+4. **Evite Lacunas:** Pause para confirmar que não há detalhes esquecidos, como tipos de dados, casos edge ou aplicações reais.
+
+Esse processo interno torna as aulas mais profundas e confiáveis, simulando um mentor experiente.
