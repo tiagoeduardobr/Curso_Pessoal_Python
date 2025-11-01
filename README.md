@@ -8,7 +8,7 @@ Aqui eu documento os projetos, exercícios e conceitos que estudo, aplicando as 
 
 ## Projetos
 
-*   Ainda não há projetos listados.
+* Ainda não há projetos listados.
 
 ---
 
