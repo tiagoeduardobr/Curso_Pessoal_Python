@@ -14,7 +14,9 @@ Aqui estão as aulas desenvolvidas até agora, organizadas em módulos sequencia
 * **00-import-this**: Introdução ao "The Zen of Python" com o comando `import this`.
 * **01-hello-world**: Primeiros passos com o comando `print()` para saídas básicas.
 * **02-variables-and-types**: Exploração de variáveis e tipos de dados primitivos em Python.
+* **03-arithmetic-operators**: Operadores aritméticos básicos com exemplos práticos.
 
+*Todas as aulas foram padronizadas com comentários didáticos, docstrings e exercícios para melhor aprendizado.*
 *Próximas aulas em desenvolvimento: Operadores, estruturas de controle, etc.*
 
 ## Tecnologias Utilizadas
