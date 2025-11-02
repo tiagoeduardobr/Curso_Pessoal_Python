@@ -53,7 +53,13 @@ Seguimos 'The Zen of Python': princípio relevante.
 variavel = valor  # Comentário explicativo
 print(f"Resultado: {variavel}")
 
-# Exercício: Faça algo simples
+# Exemplo de Exercício: Calcule a área de um retângulo e o perímetro
+largura = 7
+altura = 3
+area = largura * altura
+perimetro = 2 * (largura + altura)
+print(f"Área do retângulo: {area}")
+print(f"Perímetro do retângulo: {perimetro}")
 ```
 
 ---
