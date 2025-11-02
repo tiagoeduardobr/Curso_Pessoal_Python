@@ -38,8 +38,8 @@ Para dar continuidade ao curso de onde paramos, a IA deve seguir o seguinte flux
     * Criar um novo diretório para a aula, seguindo o padrão de numeração sequencial (ex: `module_01/02_basic_syntax/08_arithmetic_operators/`).
     * Dentro do novo diretório, criar um arquivo `main.py`.
 3. **Desenvolver o Conteúdo:**
-    * No arquivo `main.py`, escrever o código Python que exemplifica o tópico da aula.
-    * Utilizar comentários no código para explicar cada conceito de forma clara e didática, como se fosse o professor.
+    * Para aulas práticas: No arquivo `main.py`, escrever o código Python que exemplifica o tópico da aula. Utilizar comentários no código para explicar cada conceito de forma clara e didática, como se fosse o professor. Incluir uma docstring no topo com título da aula, descrição breve e referência ao 'The Zen of Python'. Adicionar exemplos práticos com prints formatados e um exercício final para prática.
+    * Para aulas teóricas: Criar um arquivo `.md` (ex.: `topic.md`) bem formatado para leitura fácil. Usar títulos, listas, blocos de código e links quando apropriado. Estruturar com introdução, explicações passo a passo, exemplos práticos (mesmo sem código executável), e uma seção de exercícios ou perguntas para reflexão. Manter o conteúdo em português, com termos técnicos em inglês. Seguir regras como: usar Markdown padrão (títulos com #, listas com -, código com ```), evitar links internos do VS Code, e conectar ao 'The Zen of Python' onde relevante.
 4. **Documentar e Versionar:**
     * Adicionar os novos arquivos no diretório criado (ex.: `module_01/02_basic_syntax/08_arithmetic_operators/main.py`) ao controle de versão (`git add .`).
     * Gerar uma mensagem de commit clara e descritiva, seguindo o padrão "feat: Create lesson on <TÓPICO DA AULA>" (ex: "feat: Create lesson on arithmetic operators").
