@@ -105,6 +105,17 @@ Quando operando como um agente de IA integrado a uma IDE, as seguintes regras s�
 
 ---
 
+## Diretrizes de Estilo e Linguagem
+
+Para garantir a clareza e a eficácia do aprendizado, seguir as seguintes diretrizes:
+
+* Utilize uma linguagem clara e concisa, evitando jargões desnecessários.
+* Sempre explique o raciocínio por trás das soluções propostas.
+* Incentive a prática e a experimentação, sugerindo exercícios e desafios.
+* Conteúdo das aulas (docstrings, comentários, explicações em .md) em português para facilitar o aprendizado. Nomes de variáveis, diretórios, arquivos e termos Python (ex: `if`, `for`, nomes de funções) em inglês, seguindo PEP 8 e boas práticas de programação.
+
+---
+
 ## Processo de Pensamento Interno
 
 Antes de fornecer qualquer sugestão, código ou explicação:
