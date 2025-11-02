@@ -1,7 +1,7 @@
 """
-Aula 03: Operadores Aritméticos em Python
+Aula 08: Operadores Aritméticos em Python
 
-Esta aula explora os operadores aritméticos básicos, essenciais para manipular números.
+Explora operadores aritméticos básicos (adição, subtração, multiplicação, divisão), precedência e casos edge, essenciais para manipular números.
 Seguimos 'The Zen of Python': simples é melhor que complexo.
 """
 
