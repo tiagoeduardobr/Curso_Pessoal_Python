@@ -1,8 +1,8 @@
 """
-Aula 02: Variáveis e Tipos de Dados em Python
+Aula 07: Tipos de Dados Primitivos em Python
 
-Explora variáveis e tipos primitivos (int, float, str, bool), essenciais para armazenar dados.
-Seguimos 'The Zen of Python': explícito é melhor que implícito.
+Explora tipos primitivos (int, float, str, bool) e estruturas de dados básicas.
+Seguimos 'The Zen of Python': simples é melhor que complexo.
 """
 
 # Variáveis Numéricas
@@ -16,7 +16,7 @@ print(f"Altura: {altura} (Tipo: {type(altura).__name__})")
 print(f"Número Complexo: {numero_complexo} (Tipo: {type(numero_complexo).__name__})")
 print("-" * 20)
 
-# Variável de Texto (String)
+#Variável de Texto (String)
 nome = "Ada Lovelace"  # String (str): armazena sequências de caracteres (texto)
 primeira_letra = 'A'  # Exemplo de string com um único caractere
 
