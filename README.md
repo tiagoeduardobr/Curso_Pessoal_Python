@@ -11,13 +11,21 @@ A metodologia é incremental, começando pelos fundamentos e avançando para tó
 
 Aqui estão as aulas desenvolvidas até agora, organizadas em módulos sequenciais. Cada uma é um mini-projeto com código executável e comentários didáticos.
 
-* **00-import-this**: Introdução ao "The Zen of Python" com o comando `import this`.
-* **01-hello-world**: Primeiros passos com o comando `print()` para saídas básicas.
-* **02-variables-and-types**: Exploração de variáveis e tipos de dados primitivos em Python.
-* **03-arithmetic-operators**: Operadores aritméticos básicos com exemplos práticos.
+### Módulo 1: Fundamentos (O Básico)
 
-*Todas as aulas foram padronizadas com comentários didáticos, docstrings e exercícios para melhor aprendizado.*
-*Próximas aulas em desenvolvimento: Operadores, estruturas de controle, etc.*
+#### 1.1. Introdução e Configuração
+
+* **[01_import_this](module_01/01_introduction/01_import_this/main.py)**: O que é Python? (Filosofia, usos) com `import this`.
+* **[05_hello_world](module_01/01_introduction/05_hello_world/main.py)**: Seu primeiro programa: `print("Olá, Mundo!")`.
+
+#### 1.2. Sintaxe Básica
+
+* **[06_variables](module_01/02_basic_syntax/06_variables/main.py)**: Variáveis (Nomenclatura e atribuição).
+* **[07_data_types](module_01/02_basic_syntax/07_data_types/main.py)**: Tipos de Dados Primitivos (int, float, str, bool).
+* **[08_arithmetic_operators](module_01/02_basic_syntax/08_arithmetic_operators/main.py)**: Operadores Aritméticos.
+
+*Todas as aulas foram padronizadas com comentários didáticos, docstrings e exercícios executáveis para melhor aprendizado.*
+*Próximas aulas em desenvolvimento: Entrada e Saída, Comentários e Indentação, etc.*
 
 ## Tecnologias Utilizadas
 
