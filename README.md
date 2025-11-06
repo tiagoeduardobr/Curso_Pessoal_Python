@@ -11,21 +11,21 @@ A metodologia é incremental, começando pelos fundamentos e avançando para tó
 
 Aqui estão as aulas desenvolvidas até agora, organizadas em módulos sequenciais. Cada uma é um mini-projeto com código executável e comentários didáticos.
 
-### Módulo 1: Fundamentos (O Básico)
+### Módulo 1: Fundamentos e Configuração do Ambiente
 
 #### 1.1. Introdução e Configuração
 
 * **[01_import_this](module_01/01_introduction/01_import_this/main.py)**: O que é Python? (Filosofia, usos) com `import this`.
 * **[05_hello_world](module_01/01_introduction/05_hello_world/main.py)**: Seu primeiro programa: `print("Olá, Mundo!")`.
 
-#### 1.2. Sintaxe Básica
+#### 1.3. Sintaxe Básica
 
-* **[06_variables](module_01/02_basic_syntax/06_variables/main.py)**: Variáveis (Nomenclatura e atribuição).
-* **[07_data_types](module_01/02_basic_syntax/07_data_types/main.py)**: Tipos de Dados Primitivos (int, float, str, bool).
-* **[08_arithmetic_operators](module_01/02_basic_syntax/08_arithmetic_operators/main.py)**: Operadores Aritméticos.
+* **[10_variables](module_01/03_basic_syntax/10_variables/main.py)**: Variáveis (Nomenclatura e atribuição).
+* **[11_data_types](module_01/03_basic_syntax/11_data_types/main.py)**: Tipos de Dados Primitivos (int, float, str, bool).
+* **[12_arithmetic_operators](module_01/03_basic_syntax/12_arithmetic_operators/main.py)**: Operadores Aritméticos.
 
 *Todas as aulas foram padronizadas com comentários didáticos, docstrings e exercícios executáveis para melhor aprendizado.*
-*Próximas aulas em desenvolvimento: Entrada e Saída, Comentários e Indentação, etc.*
+*Próximas aulas em desenvolvimento: Ferramentas Essenciais, Entrada e Saída, etc.*
 
 ## Tecnologias Utilizadas
 
