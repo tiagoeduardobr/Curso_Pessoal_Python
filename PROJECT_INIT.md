@@ -34,6 +34,7 @@ Para manter consistência e qualidade em todas as aulas, siga este formato em ca
 5. **PEP 8 e Simplicidade:** Mantenha o código limpo, legível e "pitônico".
 
 Exemplo de Estrutura:
+
 ```python
 """
 Aula XX: Título da Aula
