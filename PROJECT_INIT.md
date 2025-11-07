@@ -23,7 +23,41 @@ O curso é dividido em 13 módulos, do básico ao avançado, incluindo especiali
 
 ---
 
-## Próximos Passos para a IA
+## Estrutura Padrão de Aulas
+
+Para manter consistência e qualidade em todas as aulas, siga este formato em cada `main.py`:
+
+1. **Docstring no Topo:** Inclua uma docstring com título da aula, descrição breve e referência ao 'The Zen of Python'.
+2. **Comentários Inline:** Explique cada conceito, variável ou operação com comentários claros e didáticos.
+3. **Exemplos Práticos:** Use prints formatados para demonstrar resultados, com variáveis descritivas.
+4. **Exercício Final:** Adicione um pequeno exercício para prática, incentivando o aluno a modificar e testar.
+5. **PEP 8 e Simplicidade:** Mantenha o código limpo, legível e "pitônico".
+
+Exemplo de Estrutura:
+```python
+"""
+Aula XX: Título da Aula
+
+Descrição breve do tópico.
+Seguimos 'The Zen of Python': princípio relevante.
+"""
+
+# Exemplo 1: Conceito básico
+variavel = valor  # Comentário explicativo
+print(f"Resultado: {variavel}")
+
+# Exemplo de Exercício: Calcule a área de um retângulo e o perímetro
+largura = 7
+altura = 3
+area = largura * altura
+perimetro = 2 * (largura + altura)
+print(f"Área do retângulo: {area}")
+print(f"Perímetro do retângulo: {perimetro}")
+```
+
+---
+
+## Próximos Passos
 
 Para dar continuidade ao curso de onde paramos, a IA deve seguir o seguinte fluxo para cada nova aula:
 
