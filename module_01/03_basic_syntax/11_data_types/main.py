@@ -1,5 +1,5 @@
 """
-Aula 07: Tipos de Dados Primitivos em Python
+Aula 11: Tipos de Dados Primitivos em Python
 
 Explora tipos primitivos (int, float, str, bool) e estruturas de dados básicas.
 Seguimos 'The Zen of Python': simples é melhor que complexo.

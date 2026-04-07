@@ -1,5 +1,5 @@
 """
-Aula 08: Operadores Aritméticos em Python
+Aula 12: Operadores Aritméticos em Python
 
 Explora operadores aritméticos básicos (adição, subtração, multiplicação, divisão), precedência e casos edge, essenciais para manipular números.
 Seguimos 'The Zen of Python': simples é melhor que complexo.
