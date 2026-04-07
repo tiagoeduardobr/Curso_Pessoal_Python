@@ -1,5 +1,5 @@
 """
-Aula 06: Variáveis em Python
+Aula 10: Variáveis em Python
 
 Explora a criação, nomenclatura e atribuição de variáveis, fundamentais para armazenar e manipular dados.
 Seguimos 'The Zen of Python': explícito é melhor que implícito.
